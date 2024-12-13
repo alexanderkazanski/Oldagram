@@ -9,6 +9,10 @@ html, body {
   font-style: normal;
 }
 
+p {
+  margin: 0;
+}
+
 .oldgram-container {
     width: 375px;
     height: 67px;
@@ -87,6 +91,7 @@ html, body {
     display: flex;
     justify-content: start;
     align-items: center;
+    margin-left: 6px;
 }
 
 .actions img {
@@ -118,7 +123,7 @@ html, body {
 
 .user-comment {
     font-size: 13px;
-    margin: 0 0 16px 13px;
+    margin: 0 0 0 13px;
 }
 
 .user-name {
