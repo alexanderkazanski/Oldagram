@@ -7,7 +7,7 @@ export default defineConfig(() => ({
         'index.html',
         './index.css',
         './index.js',
-        './images'
+        './images/*'
       ],
     },
   },
